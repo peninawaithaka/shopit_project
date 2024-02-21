@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: SHOPIT_ANALYTICS
+    schema: ESTUARY_SCHEMA
+    tables:
+      - name: RAW_SHOPIT_DATA
