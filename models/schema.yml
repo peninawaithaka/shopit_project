@@ -1,0 +1,17 @@
+version: 2
+models:
+  - name: src_shopit_data
+    description: Updated table with minimal columns and non-null values in the product column.
+    columns:
+      - name: order_id
+        description: Unique identifier of each order made.
+        tests:
+          - not_null
+      - name: product_id
+        description: Unique identifier of each product.
+        tests:
+          - not_null
+      - name: product
+        description: product_name.
+        tests:
+          - not_null
