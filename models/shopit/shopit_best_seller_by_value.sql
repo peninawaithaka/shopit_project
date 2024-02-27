@@ -1,7 +1,7 @@
 --model that will aid in visualizing the best product by value in 2023. 
 {{
     config(
-        materialized = 'view'
+        materialized = 'table'
     )
 }}
 
