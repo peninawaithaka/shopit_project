@@ -1,0 +1,13 @@
+version: 2
+
+exposures:
+  - name: shopit_best_seller_by_quantity
+    label: Best seller by Quantity
+    type: dashboard
+    maturity: low
+
+    depends_on:
+      - ref('shopit_best_seller_by_quantity')
+
+    owner:
+      name: Penina Waithaka
